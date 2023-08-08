@@ -1,9 +1,4 @@
-html, body, main {
-    width: 100%;
-    height: 100%;
-    margin:0;
-    padding: 0;
-}
+
   
 #myCarousel{
   width: 9.42vw;
@@ -14,7 +9,7 @@ html, body, main {
   border: 0.22vw;
   margin-top: 58.71vw;
   overflow: hidden;
-  width: 330px;
+  width: 23.91vw;
 
   
 
@@ -36,19 +31,19 @@ html, body, main {
     transition: width 1s;
     margin-top: 11.01vw;
 }
-// #myCarousel div.hideLeft {
-//     left: 0%;
-//     opacity: 0;
-//     transform: translateY(50%) translateX(-50%);
-// }
+ #myCarousel div.hideLeft {
+     left: 0%;
+     opacity: 0;
+     transform: translateY(50%) translateX(-50%);
+}
 #myCarousel div.hideLeft img {
     width: 0vw;
 }
-// #myCarousel div.hideRight {
-//     left: 100%;
-//     opacity: 0;
-//     transform: translateY(50%) translateX(-50%);
-// }
+ #myCarousel div.hideRight {
+     left: 100%;
+     opacity: 0;
+     transform: translateY(50%) translateX(-50%);
+ }
 #myCarousel div.hideRight img {
     width: 0vw;
 }
