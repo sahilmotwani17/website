@@ -8,7 +8,13 @@
   font-family: 'Canela Deck';
   src: url('./components/canelabold.otf') format('opentype');
 }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./components/proximanova-regular.otf') format('opentype');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap');
+
 
 
 
