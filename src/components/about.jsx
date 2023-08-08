@@ -18,6 +18,7 @@ export default class About extends Component {
         <span id='aboutdimple'>About Dimple Motwani</span>
         <img id='aboutdimpsimg' src={require("./dimps4.png")}/>
         <div id='aboutdimpsdiv'></div>
+        <span id='notehome'>The project aimed at providing convenience and emotional comfort to homemakers by personalising the kitchen experience and reducing their daily workload. The project aimed at providing convenience and emotional comfort to homemakers by personalising the kitchen experience and reducing their daily workload. The project aimed at providing convenience and emotional comfort.</span>
         <span id='abouttext'>The project aimed at providing convenience and emotional comfort to homemakers by personalising the kitchen experience and reducing their daily workload. The project aimed at providing convenience and emotional comfort to homemakers by personalising the kitchen experience and reducing their daily workload. The project aimed at providing convenience and emotional comfort.</span>
         <span id='looking'>Looking for a speaker?</span>
         <span id='lookingtext'>Dimple is keen to publicly speak about design and research and make aware of their abilities to transform the reality. She speaks about.... </span>

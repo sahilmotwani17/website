@@ -21,6 +21,7 @@ html, body, main {
   border-radius: 0.72vw;
   border: 0.22vw;
   margin-top: -2vw;
+  overflow: hidden;
 }
 
   #carousel .selected {
@@ -30,6 +31,7 @@ html, body, main {
     position: absolute;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
     opacity: 1;
+    overflow: hidden;
   }
   #carousel div img {
     width: 14.49vw;
