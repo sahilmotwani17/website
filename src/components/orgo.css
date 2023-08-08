@@ -1,0 +1,59 @@
+.scroll-button1 {
+    font-family: Proxima Nova;
+    font-size: 1.16vw;
+    font-weight: 700;
+    line-height: 1.67vw;
+    cursor: pointer;
+    color: rgba(255, 203, 111, 1);
+    border: none;
+    background-color: white;
+    margin-bottom: 0.72vw; 
+   
+
+  }
+  /* Add this CSS to your existing styles */
+.button-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 41.45vw; /* Optional: Add some space between buttons and content */
+    margin-right: 11vw;
+    gap:6.52vw;
+  }
+  .arrowbutton
+  {
+    width: 1.81vw;
+    height: 1.81vw;
+}
+#orgob1
+{
+    position: absolute;
+    width: 8.04vw;
+  height: 2.1vw;
+  top: 51.3vw;
+  left: 2.17vw;
+}
+#orgob2
+{
+    position: absolute;
+  width: 9.71vw;
+height: 2.1vw;
+top: 95.51vw;
+left: 2.17vw;
+}
+#orgob3
+{
+    position: absolute;
+    width: 14.28vw;
+    height: 2.1vw;
+    top: 111.45vw;
+    left: 2.32vw;
+}
+#orgob4
+{
+    position: absolute;
+    width: 14.57vw;
+    height: 2.1vw;
+    top: 165.07vw;
+    left: 2.32vw;
+}

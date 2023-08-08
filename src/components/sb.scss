@@ -1,0 +1,142 @@
+html, body, main {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+  }
+  
+  // #carousel {
+  //   position: relative;
+  //   height: 28.99vw;
+  //   top: 50%;
+  //   transform: translateY(-50%);
+  //   overflow: visible;
+  //   margin-top: 55.8vw;
+  // }
+  #carousel{
+  width: 9.42vw;
+  height: 9.42vw;
+  top: 4.8vw;
+  left: 37.03vw;
+  border-radius: 0.72vw;
+  border: 0.22vw;
+  margin-top: -2vw;
+}
+
+  #carousel .selected {
+    overflow: visible;
+  }
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+  }
+  #carousel div img {
+    width: 14.49vw;
+    transition: width 1s;
+    margin-top: 11.01vw;
+  }
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+  }
+  #carousel div.hideLeft img {
+    width: 14.49vw;
+  }
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+  }
+  #carousel div.hideRight img {
+    width: 14.49vw;
+  }
+  #carousel div.prev {
+    margin-right: 7.25vw;
+    z-index: 5;
+    left: 20%;
+    transform: translateY(3.62vw) translateX(-50%);
+  }
+  #carousel div.prev img {
+    
+    width: 15.660649819494584vw;
+
+  }
+  #carousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+  }
+  #carousel div.prevLeftSecond img {
+    width: 14.49vw;
+  }
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0vw) translateX(-50%);
+  }
+  #carousel div.selected img {
+    
+    width: 19.660649819494584vw;
+
+  }
+  #carousel div.next {
+    z-index: 5;
+    left: 80%;
+    margin-right: 3.62vw;
+    transform: translateY(3.62vw) translateX(-50%);
+  }
+  #carousel div.next img {
+    width: 15.660649819494584vw;
+  }
+  #carousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+  }
+  #carousel div.nextRightSecond img {
+    width: 14.49vw;
+  }
+
+  
+  .buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.72vw;
+  }
+  #prev {
+    position: absolute;
+    width: 2.1660649819494586vw;
+    left: -42vw;
+    top: -14.26vw;
+    z-index: 1;
+  }
+  
+  #next {
+    position: absolute;
+    width: 1.8660649819494586vw;
+    right: -42vw;
+    top: -14.26vw;
+    z-index: 1;
+  }
+    #carousel .selected p {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      width:21.96vw;
+      color: black;
+      padding: 0.72vw;
+      text-align: center;
+      font-size: 1.3vw;
+      font-weight: 400;
+      font-family: 'Proxima Nova';
+
+      
+    }
+    
+  

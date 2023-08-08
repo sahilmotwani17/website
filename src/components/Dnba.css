@@ -1,0 +1,79 @@
+/* Example CSS styles for buttons */
+.scroll-button {
+    font-family: Proxima Nova;
+    font-size: 1.16vw;
+    font-weight: 700;
+    line-height: 1.67vw;
+    cursor: pointer;
+    color: rgba(255, 203, 111, 1);
+    border: none;
+    background-color: white;
+    margin-bottom: 0.72vw; 
+   
+
+  }
+  /* Add this CSS to your existing styles */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 41.45vw; /* Optional: Add some space between buttons and content */
+    margin-right: 11vw;
+    gap:6.52vw;
+  }
+  .arrowbutton
+  {
+    width: 1.81vw;
+height: 1.81vw;
+
+  }
+  
+  
+  /* Example CSS styles for sections */
+  #design-brief
+  {
+    position: absolute;
+    width: 0vw;
+    height: 2.1vw;
+    top: 51.3vw;
+  }
+  #arts-crafts
+  {
+    position: absolute;
+    width: 18.84vw;
+    height: 2.1vw;
+    top: 65.8vw;
+    left: 2.17vw;
+  }
+  #bauhaus
+  {
+    position: absolute;
+  width: 15.72vw;
+  height: 2.1vw;
+  top: 121.59vw;
+  left: 2.17vw;
+  }
+  #dont-be-afraid-arts-crafts
+  {
+    position: absolute;
+  width: 30.49vw;
+  height: 2.1vw;
+  top: 170.14vw;
+  left: 2.17vw;
+  }
+  #conceptualization
+  {
+    position: absolute;
+  width: 14.28vw;
+  height: 2.1vw;
+  top: 274.49vw;
+  left: 2.17vw;
+  }
+  #dont-be-afraid-bauhaus
+  {
+    position: absolute;
+  width: 24.13vw;
+  height: 2.1vw;
+  top: 335.36vw;
+  left: 2.17vw;
+  }

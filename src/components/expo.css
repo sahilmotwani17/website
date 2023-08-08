@@ -1,0 +1,87 @@
+.scroll-button1 {
+    font-family: Proxima Nova;
+    font-size: 1.16vw;
+    font-weight: 700;
+    line-height: 1.67vw;
+    cursor: pointer;
+    color: rgba(255, 203, 111, 1);
+    border: none;
+    background-color: white;
+    margin-bottom: 0.72vw; 
+   
+
+  }
+  /* Add this CSS to your existing styles */
+.button-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 41.45vw; /* Optional: Add some space between buttons and content */
+    margin-right: 11vw;
+    gap:6.52vw;
+  }
+  .arrowbutton
+  {
+    width: 1.81vw;
+height: 1.81vw;
+
+  }
+  
+#expoo1
+{
+    position: absolute;
+    width: 8.7vw;
+    height: 2.1vw;
+    top: 51.3vw;
+    left: 2.17vw;
+}
+#expoo2
+{
+    position: absolute;
+  width: 16.52vw;
+height: 2.1vw;
+top: 107.83vw;
+left: 2.17vw;
+}
+#expoo3
+{
+    position: absolute;
+    width: 9.42vw;
+    height: 2.1vw;
+    top: 158.55vw;
+    left: 2.17vw;
+}
+#expoo4
+{
+    position: absolute;
+    width: 13.84vw;
+    height: 2.1vw;
+    top: 183.19vw;
+    left: 2.17vw;
+}
+#expoo5
+{
+    position: absolute;
+    width: 14.42vw;
+    height: 2.1vw;
+    top: 228.84vw;
+    left: 2.17vw;
+}
+#expoo6
+{
+    position: absolute;
+    width: 6.23vw;
+    height: 2.1vw;
+    top: 365.07vw;
+    left: 2.17vw;
+
+}
+#expoo7
+{
+    position: absolute;
+    width: 14.57vw;
+    height: 2.1vw;
+    top: 399.13vw;
+    left: 2.17vw;
+}
+

@@ -1,0 +1,179 @@
+html, body, main {
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+  
+#myCarousel{
+  width: 9.42vw;
+  height: 13.77vw;
+  top: 10.8vw;
+  left: 37.03vw;
+  border-radius: 0.72vw;
+  border: 0.22vw;
+  margin-top: 58.71vw;
+  overflow: hidden;
+  width: 330px;
+
+  
+
+
+}
+
+#myCarousel .selected {
+    overflow: visible;
+}
+
+#myCarousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+  
+}
+#myCarousel div img {
+    width: 14.49vw;
+    transition: width 1s;
+    margin-top: 11.01vw;
+}
+// #myCarousel div.hideLeft {
+//     left: 0%;
+//     opacity: 0;
+//     transform: translateY(50%) translateX(-50%);
+// }
+#myCarousel div.hideLeft img {
+    width: 0vw;
+}
+// #myCarousel div.hideRight {
+//     left: 100%;
+//     opacity: 0;
+//     transform: translateY(50%) translateX(-50%);
+// }
+#myCarousel div.hideRight img {
+    width: 0vw;
+}
+#myCarousel div.prev {
+    margin-right: 7.25vw;
+    z-index: 5;
+    left: 20%;
+    transform: translateY(3.62vw) translateX(-50%);
+}
+#myCarousel div.prev img {
+    
+    width: 15.660649819494584vw;
+    border-radius: 0.72vw;
+    border: 0.24vw solid rgba(255, 203, 111, 1);
+    background: rgba(251, 246, 234, 1);
+
+
+
+}
+#myCarousel div.prevLeftSecond {
+    z-index: 4;
+    left: 15%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+    overflow: hidden;
+}
+#myCarousel div.prevLeftSecond img {
+    width: 0vw;
+}
+#myCarousel div.selected {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0vw) translateX(-50%);
+}
+#myCarousel div.selected img {
+    
+    width: 19.660649819494584vw;
+    border-radius: 0.72vw;
+    border: 0.24vw solid rgba(255, 203, 111, 1);
+
+}
+#myCarousel div.next {
+    z-index: 5;
+    left: 80%;
+    margin-right: 3.62vw;
+    transform: translateY(3.62vw) translateX(-50%);
+}
+#myCarousel div.next img {
+    width: 15.660649819494584vw;
+    border-radius: 0.72vw;
+    border: 0.24vw solid rgba(255, 203, 111, 1);
+    background: rgba(251, 246, 234, 1);
+
+    
+}
+#myCarousel div.nextRightSecond {
+    z-index: 4;
+    left: 85%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 0.7;
+    overflow: hidden;
+}
+#myCarousel div.nextRightSecond img {
+    width: 0vw;
+}
+
+
+#prevww
+{
+    position:absolute;
+    width:1.81vw;
+    left:33.55vw;
+    top:87.63vw;
+    z-index:1;
+    
+}
+  
+#nextww
+{
+    position:absolute;
+    width:1.45vw;
+    right:33.55vw;
+    top:87.63vw;
+    z-index:1;
+}
+#myCarousel div.prev p,
+#myCarousel div.next p {
+  font-size: 1.16vw;
+}
+
+
+#stext
+{
+position:absolute;
+top:100%;
+left:0;
+right:0;
+color:rgba(225, 165, 100, 1);
+padding:0.72vw;
+text-align:center;
+font-size:1.74vw;
+font-weight:700;
+}
+/* Add this CSS to your sb2.scss or any appropriate CSS file */
+#viewrelatedhome
+{
+    position: absolute;
+    width: 15.22vw;
+height: 2.9vw;
+top: 104.25vw;
+left: 41.4vw;
+border-radius: 0.72vw;
+border: 0.07vw;
+border: 0.07vw solid rgba(255, 203, 111, 1);
+font-family: Proxima Nova;
+font-size: 1.3vw;
+font-weight: 700;
+line-height: 1.59vw;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 203, 111, 1);
+
+}
+#viewrelatedhome:hover{
+    color: white;
+}
+  
