@@ -32,7 +32,7 @@ export default class Home extends Component {
         <span id='pktext'>Play Kitchen</span>
         <span id='pktext2'>Research & Development | Space Design</span>
         <span id='pktext3'>The project aimed at providing convenience and emotional comfort to homemakers by personalising the kitchen experience and reducing their daily workload.</span>
-      <span id='mtext'>Message from Founder</span>
+      <span id='mtext'>Note from Founder</span>
       <div id='messagediv'></div>
         {/* <div id='chdiv'>
       <Contact/>

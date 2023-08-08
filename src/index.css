@@ -80,6 +80,8 @@ line-height: 1.59vw;
 letter-spacing: 0em;
 text-align: center;
 border: 0.07vw solid rgba(255, 203, 111, 1);
+padding-top: 0.6vw;
+color: rgba(255, 203, 111, 1);
 
 /* color: #FFCB6F; */
 }
@@ -94,7 +96,7 @@ border: 0.07vw solid rgba(255, 203, 111, 1);
   width: 15.22vw;
 height: 2.9vw;
 top: 72.27364620938628vw;
-left: 75.36vw;
+left: 80.36vw;
 border-radius: 0.72vw;
 border: 0.07vw solid rgba(255, 203, 111, 1);
 font-family: Proxima Nova;
@@ -104,6 +106,8 @@ line-height: 1.59vw;
 letter-spacing: 0em;
 text-align: center;
 z-index: 11;
+padding-top: 0.6vw;
+color: rgba(255, 203, 111, 1);
 }
 #viewser:hover
 {
@@ -152,7 +156,7 @@ background: rgba(251, 246, 234, 1);
 height: 3.91vw;
 top: 117.17vw;
 left: 2.61vw;
-font-family: Canela regular;
+font-family: Canela Deck;
 font-size: 2.61vw;
 font-weight: 700;
 line-height: 3.91vw;
@@ -177,7 +181,7 @@ border-radius: 1.09vw;
 height: 3.91vw;
 top: 124.42vw;
 left: 50.94vw;
-font-family: Canela regular;
+font-family: Canela Deck;
 font-size: 2.61vw;
 font-weight: 700;
 line-height: 3.91vw;
@@ -223,7 +227,7 @@ color: rgba(0, 0, 0, 1);
 height: 3.91vw;
 top: 153.41vw;
 left: 2.17vw;
-font-family: Canela regular;
+font-family: Canela Deck;
 font-size: 2.61vw;
 font-weight: 700;
 line-height: 3.91vw;
@@ -428,7 +432,7 @@ color: #000000;
 height: 4.35vw;
 top: 12.46vw;
 left: 17.17vw;
-font-family: Canela regular;
+font-family: Canela Deck;
 font-size: 2.9vw;
 font-weight: 700;
 line-height: 4.35vw;
@@ -526,10 +530,11 @@ color: #E1A564;
 
 #Dpdiv{
   position: absolute;
-  width: 95.97472924187726vw;
+  width: 97.97472924187726vw;
   height: 28.880866425992778vw;
   top: 40.48736462093863vw;
   left: 1vw;
+  right: 1vw;
   border-radius: 0.7220216606498195vw;
   background-color: rgba(251, 246, 234, 1);
 
@@ -3596,7 +3601,7 @@ border-radius: 1.09vw !important;
 #about1
 {
   position: absolute;
-  width: 95.3vw;
+  width: 96.3vw;
 height: 31.88vw;
 top: 8.7vw;
 left: 0.72vw;
@@ -3663,7 +3668,7 @@ border: 0.22vw solid rgba(255, 203, 111, 1);
 #aboutimg
 {
   position: absolute;
-  width: 96.3vw;
+  width: 97.973vw;
 height: 114.49vw;
 top: 73.91vw;
 left: 0.72vw;

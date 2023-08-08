@@ -27,14 +27,14 @@ const images = [
 ];
 
 const texts = [
-  <span style={{ fontFamily: "Proxima Nova" }}>Research & Development</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>Branding</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>Industrial Design</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>Space Design</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>Service Design</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>User Experience Design</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>Packaging Design</span>,
-  <span style={{ fontFamily: "Proxima Nova" }}>User Interface Design</span>
+  <span className='servicbtext' style={{ fontFamily: "Proxima Nova" }}>Research & Development</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Branding</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Industrial Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Space Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Service Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>User Experience Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Packaging Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>User Interface Design</span>
  
 ];
 
