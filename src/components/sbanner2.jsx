@@ -14,7 +14,6 @@ import branding from './branding.png';
 import { Link } from 'react-router-dom';
 
 
-
 const images = [
   research,
   branding,
@@ -27,14 +26,14 @@ const images = [
 ];
 
 const texts = [
-  <span className='servicbtext' style={{ fontFamily: "Proxima Nova" }}>Research & Development</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Branding</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Industrial Design</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Space Design</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Service Design</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>User Experience Design</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>Packaging Design</span>,
-  <span className='servicbtext'style={{ fontFamily: "Proxima Nova" }}>User Interface Design</span>
+  <span className='servicbtext' style={{ fontFamily: "Proxima Bol" }}>Research & Development</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>Branding</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>Industrial Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>Space Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>Service Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>User Experience Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>Packaging Design</span>,
+  <span className='servicbtext'style={{ fontFamily: "Proxima Bol" }}>User Interface Design</span>
  
 ];
 
@@ -84,7 +83,6 @@ function Carousel() {
           );
         })}
       </div>
-      <Link id='viewrelatedhome' className="btn btn-outline-warning" to="/spage">View related work</Link>
 
       <div className="buttons22">
         <img id="prevww" src={require("./prevw.png")} alt="Prev" onClick={handlePrev} />

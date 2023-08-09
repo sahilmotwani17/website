@@ -12,7 +12,10 @@
   font-family: 'Proxima Nova';
   src: url('./components/proximanova-regular.otf') format('opentype');
 }
-
+@font-face {
+  font-family: 'Proxima Bol';
+  src: url('./components/proximanova-bold.otf') format('opentype');
+}
 /* @import url('https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap'); */
 
 
@@ -28,7 +31,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x:hidden
   
 }
 
@@ -46,6 +49,23 @@ code {
   /* position: absolute;
   
 } */
+#thrutext
+{
+  position: absolute;
+  width: 49.28vw;
+height: 8.7vw;
+top: 55.8vw;
+left: 21.74vw;
+font-family: Canela Deck;
+font-size: 2.9vw;
+font-weight: 700;
+line-height: 4.35vw;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(225, 165, 100, 1);
+
+
+}
 
 #name
 {
@@ -97,6 +117,93 @@ color: rgba(255, 203, 111, 1);
 {
   color: white;
 }
+#fwbutton{
+  position: absolute;
+width: 15.22vw;
+height: 2.9vw;
+top: 117.39vw;
+left: 81.36vw;
+border-radius: 0.72vw;
+font-family: Proxima Nova;
+font-size: 1.3vw;
+font-weight: 700;
+line-height: 1.59vw;
+letter-spacing: 0em;
+text-align: center;
+border: 0.07vw solid rgba(255, 203, 111, 1);
+padding-top: 0.6vw;
+color: rgba(255, 203, 111, 1);
+
+/* color: #FFCB6F; */
+}
+#fwbutton:hover
+{
+  color: white;
+}
+#navtextt1
+{
+  color: black;
+}
+#navtextt1:hover
+{
+  color:#E1A564;
+  font-weight: bold;
+  
+}
+#navtextt2
+{
+  color: black;
+  
+}
+#navtextt2:hover
+{
+  color:#E1A564;
+  font-weight: bold;
+}
+#navtextt3
+{
+  color: black;
+}
+#navtextt3:hover
+{
+  color:#E1A564;
+  font-weight: bold;
+}
+#navtextt4:hover
+{
+  color:#E1A564;
+  font-weight: bold;
+}
+#navtextt4
+{
+  color: black;
+}
+.nav-link.active-link {
+  color:#E1A564 !important;
+  font-weight: bold !important;
+}
+#navstartproject
+{
+  border-radius: 0.72vw;
+border: 0.07vw solid rgba(255, 203, 111, 1);
+font-family: Proxima Nova;
+font-size: 1.3vw;
+font-weight: 700;
+line-height: 1.59vw;
+letter-spacing: 0em;
+text-align: center;
+z-index: 11;
+padding-top: 0.6vw;
+color: rgba(255, 203, 111, 1);
+width:15.22vw;
+height: 2.9vw;
+margin-left: 11.23vw ;
+}
+#navstartproject:hover
+{
+  color: white;
+}
+
 
 #viewser
 {
@@ -104,7 +211,7 @@ color: rgba(255, 203, 111, 1);
   width: 15.22vw;
 height: 2.9vw;
 top: 72.27364620938628vw;
-left: 80.36vw;
+left: 81.36vw;
 border-radius: 0.72vw;
 border: 0.07vw solid rgba(255, 203, 111, 1);
 font-family: Proxima Nova;
@@ -139,7 +246,7 @@ font-weight: 400;
 line-height: 2.17vw;
 letter-spacing: 0em;
 text-align: center;
-margin-left: 14vw;
+margin-left: 17vw;
 color: black  !important;
 
 
@@ -148,7 +255,7 @@ color: black  !important;
 #work
 {
   position: absolute;
-  width: 95.97472924187726vw;
+  width: 97.97472924187726vw;
 height: 36.23vw;
 top: 114.49vw;
 left: 0.72vw;
@@ -258,13 +365,28 @@ border: 0.07vw;
 {
   position: absolute;
   width: 73.48vw;
-height: 19.13vw;
-top: 172.9vw;
-left: 9.64vw;
+  height: 37.97vw;
+  top: 172.9vw;
+  left: 9.64vw;  
 border-radius: 1.09vw;
 border: 0.22vw solid rgba(255, 203, 111, 1);
 }
+#messagetexttt
+{
+  position: absolute;
+  width: 58.41vw;
+height: 30.29vw;
+top: 177.75vw;
+left: 17.17vw;
+font-family: Proxima Nova;
+font-size: 1.3vw;
+font-weight: 400;
+line-height: 1.59vw;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(0, 0, 0, 1);
 
+}
 /* #mail{
 
     
@@ -3608,10 +3730,11 @@ border-radius: 1.09vw !important;
 #notehome
 {
   position: absolute;
-  width: 38.62vw;
-height: 13.19vw;
-top: 202.54vw;
-left: 36.96vw;
+  width: 37.39vw;
+  height: 26.38vw;
+  top: 197.9vw;
+  left: 39.64vw;
+  
 font-family: Proxima Nova;
 font-size: 1.3vw;
 font-weight: 400;
@@ -3625,7 +3748,7 @@ text-align: left;
 #about1
 {
   position: absolute;
-  width: 96.3vw;
+  width: 97.97vw;
 height: 31.88vw;
 top: 8.7vw;
 left: 0.72vw;
@@ -3692,20 +3815,21 @@ border: 0.22vw solid rgba(255, 203, 111, 1);
 #aboutimg
 {
   position: absolute;
-  width: 97.973vw;
-height: 114.49vw;
-top: 73.91vw;
-left: 0.72vw;
-border-radius: 0.92vw;
+  width: 97.97vw;
+  height: 114.49vw;
+  top: 73.91vw;
+  left: 0.72vw;
+  border-radius: 1.72vw;
 
 }
 #aboutdimple
 {
   position: absolute;
   width: 28.77vw;
-height: 3.91vw;
-top: 191.09vw;
-left: 2.17vw;
+  height: 3.91vw;
+  top: 191.81vw;
+  left: 39.64vw;
+  
 font-family: Canela Deck;
 font-size: 2.61vw;
 font-weight: 700;
@@ -3718,12 +3842,13 @@ color:#E1A564
 #aboutdimpsimg
 {
   position: absolute;
-  width: 21.01vw;
-height: 21.01vw;
-top: 198.55vw;
-left: 17.17vw;
-border-radius: 1.09vw;
-border: 0.07vw;
+  width: 25.8vw;
+  height: 31.16vw;
+  top: 192.75vw;
+  left: 9.57vw;
+  border-radius: 1.09vw;
+  border: 0.07vw;
+  
 
 }
 #aboutdimpsdiv
@@ -3758,9 +3883,9 @@ z-index: 2;
 {
   position: absolute;
   width: 17.83vw;
-height: 2.1vw;
-top: 222.32vw;
-left: 2.17vw;
+  height: 2.1vw;
+  top: 228.12vw;
+  left: 2.17vw;
 font-family: Proxima Nova;
 font-size: 1.74vw;
 font-weight: 700;
@@ -3773,9 +3898,9 @@ color:rgba(225, 165, 100, 1);
 {
   position: absolute;
   width: 50.94vw;
-height: 3.77vw;
-top: 225.43vw;
-left: 2.17vw;
+  height: 9.42vw;
+  top: 231.23vw;
+  left: 2.17vw;
 font-family: Proxima Nova;
 font-size: 1.3vw;
 font-weight: 400;

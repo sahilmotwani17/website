@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 
 export default class NavigationBar extends Component {
 
@@ -29,16 +29,16 @@ export default class NavigationBar extends Component {
 
             <ul className="navbar-nav mb-2" id="sk">
               <li class ="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link id='navtextt1' className="nav-link" to="/about" activeClassName="active-link">About</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/services" >Services</Link>
+                <Link id='navtextt2' className="nav-link" to="/services" activeClassName="active-link">Services</Link>
+              </li>
+              <li  className="nav-item">
+                <Link id='navtextt3' className="nav-link" to="/portfolio" activeClassName="active-link">Work</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portfolio">Portfolio</Link>
-              </li>
-              <li className="nav-item">
-              <a
+              <a id='navtextt4'
                   className="nav-link"
                   href="#contact"
                   onClick={() =>
@@ -52,12 +52,9 @@ export default class NavigationBar extends Component {
               </li>
             </ul>
             <ul id='sk1' className="navbar-nav mb-2 ms-auto">
-              <li className="nav-item" style={{marginTop:'3px'}}>
-                <a  id="mail-link" className="nav-link"  href="mailto:smotwani17@gmail.com" ><i class="fa-solid fa-envelope"></i></a>
-              </li>
               <li className="nav-item">
                 
-                <a id="sk2" className="nav-link"  href="#">Resume</a>
+              <Link id='navstartproject' className="btn btn-outline-warning" to="/spage">Start a project with us</Link>
               </li>
               {/* <li class="nav-item">
                 

@@ -132,8 +132,9 @@
 #myCarousel div.prev p,
 #myCarousel div.next p {
   font-size: 1.16vw;
-}
+  width: 15.86vw !important;
 
+}
 
 #stext
 {
@@ -143,34 +144,11 @@ top:100%;
 left:0;
 right:0;
 color:rgba(225, 165, 100, 1);
+width:19.86vw;
 padding:0.72vw;
-
 text-align:center;
 font-size:1.74vw;
 font-weight:700;
 }
 /* Add this CSS to your sb2.scss or any appropriate CSS file */
-#viewrelatedhome
-{
-    position: absolute;
-    width: 15.22vw;
-height: 2.9vw;
-top: 104.25vw;
-left: 41.4vw;
-border-radius: 0.72vw;
-border: 0.07vw;
-border: 0.07vw solid rgba(255, 203, 111, 1);
-font-family: Proxima Nova;
-font-size: 1.3vw;
-font-weight: 700;
-line-height: 1.59vw;
-letter-spacing: 0em;
-text-align: center;
-color: rgba(255, 203, 111, 1);
 
-}
-#viewrelatedhome:hover{
-    color: white;
-}
-
-  
