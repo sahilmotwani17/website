@@ -18,6 +18,8 @@ import Seruseri from './components/seruseri';
 import Serusere from './components/serusere';
 import Serservice from './components/serservice';
 import Serspace from './components/serspace';
+import ContactForm from './components/ContactForm';
+import StartProject from './components/startProjectForm';
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
       <Route path="/serservice" element={<Serservice/>}/>
       <Route path="/serspace" element={<Serspace/>}/>
       <Route path="/spage" element={<Spage/>}/>
+      {/* <Route exact path="/contact" element={<ContactForm/>}/> */}
+      <Route exact path="/startProject" element={<StartProject/>}/>
 
       </Routes>
     </div>

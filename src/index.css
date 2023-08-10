@@ -6031,3 +6031,10 @@ text-align: left;
 color:rgba(255, 203, 111, 1)
 
 }
+
+.custom-form-group {
+  border: 1px solid rgba(255, 203, 111, 1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}

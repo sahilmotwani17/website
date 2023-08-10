@@ -54,7 +54,7 @@ export default class NavigationBar extends Component {
             <ul id='sk1' className="navbar-nav mb-2 ms-auto">
               <li className="nav-item">
                 
-              <Link id='navstartproject' className="btn btn-outline-warning" to="/spage">Start a project with us</Link>
+              <Link id='navstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
               </li>
               {/* <li class="nav-item">
                 
