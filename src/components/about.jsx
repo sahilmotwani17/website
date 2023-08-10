@@ -17,7 +17,7 @@ export default class About extends Component {
         <span id='thrutext'>Bringing design to the centre of all realms</span>
         <img id='aboutimg' src={require("./aboutimg2.png")}/>
         <span id='aboutdimple'>About Dimple Motwani</span>
-        <img id='aboutdimpsimg' src={require("./dimps4.png")}/>
+        <img id='aboutdimpsimg' src={require("./dimps5.png")}/>
         <span id='notehome'>Dimple has always been passionate to learn and gain knowledge in every way possible. With a qualified background in Product Design and Research, she embarks on a journey to bring forth Thru Designs, a collaborative space that unlocks the potential of design and research in all realms of life. Throughout her professional journey, she has honed her skills and gathered experiences from diverse corners of the design world, all of which have played a pivotal role in shaping Thru Designs.<br/> <br/>
 
 Dimple firmly believes in growth and is keen to expand Thru by endlessly inspiring change and serving innovative stories to the users and their businesses. She holds a joyful and down-to-earth personality, ensuring to make the journey playful and memorable for surroundings.</span>

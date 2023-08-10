@@ -50,7 +50,10 @@ Here's to boundless creativity and inspiring designs!</span>
       <Contact/>
       </div> */}
        <img id='dimpspic' className='border border-warning' src={require("./dimps4.png")}/>
-       <Link id='viewser' className="btn btn-outline-warning" to="/spage">View all services</Link>
+       <Link id="viewser" className="btn btn-outline-warning" to="/spage#stext1">
+          View all services
+        </Link>
+
       </div>
     )
   }
