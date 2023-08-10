@@ -8,6 +8,7 @@ import Services from './services';
 import { useEffect } from 'react';
 import Dpbanner from './dpbanner';
 import {Link}  from "react-router-dom";
+import ContactForm from './ContactForm';
 
 export default class Home extends Component {
   render() {
@@ -46,12 +47,12 @@ Thank you for considering Thru Designs as your creative partner. We can't wait t
 Here's to boundless creativity and inspiring designs!</span>
 
       
-        {/* <div id='chdiv'>
-      <Contact/>
-      </div> */}
+        
        <img id='dimpspic' className='border border-warning' src={require("./dimps4.png")}/>
        <Link id='viewser' className="btn btn-outline-warning" to="/spage">View all services</Link>
+       
       </div>
+      
     )
   }
 }
