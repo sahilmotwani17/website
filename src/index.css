@@ -292,7 +292,6 @@ border-radius: 1.09vw;
 #pktext
 {
   position: absolute;
-  width: 15.51vw;
 height: 3.91vw;
 top: 124.42vw;
 left: 50.94vw;
@@ -672,8 +671,6 @@ color: #E1A564;
 #Dp
 {
   position: absolute;
-  width: 24.888086642599276vw;
-  height: 48.33vw;
   top: 3.91vw;
   left: 2.1660649819494586vw;
   font-family: 'Canela Deck';
@@ -4494,7 +4491,6 @@ left: 7.03vw;
 #pt1
 {
   position: absolute;
-  width: 8.26vw;
 height: 1.59vw;
 top: 37.17vw;
 left: 7.25vw;
@@ -4511,7 +4507,6 @@ z-index: 1;
 #pt2
 {
   position: absolute;
-  width: 7.83vw;
 height: 1.23vw;
 top: 40.36vw;
 left: 6.52vw;
@@ -4542,7 +4537,6 @@ text-align: left;
 #pt4
 {
   position: absolute;
-  width: 12.9vw;
 height: 1.59vw;
 top: 66.88vw;
 left: 7.25vw;
@@ -4558,7 +4552,6 @@ z-index: 1;
 #pt5
 {
   position: absolute;
-  width: 20.14vw;
 height: 1.23vw;
 top: 70.07vw;
 left: 6.52vw;
@@ -4606,7 +4599,6 @@ z-index: 1;
 #pt8
 {
   position: absolute;
-  width: 29.28vw;
 height: 1.23vw;
 top: 99.78vw;
 left: 6.52vw;
@@ -4622,7 +4614,6 @@ z-index: 1;
 #pt9
 {
   position: absolute;
-  width: 7.61vw;
 height: 2.1vw;
 top: 101.3vw;
 left: 6.52vw;
@@ -4639,8 +4630,6 @@ z-index: 1;
 #pt10
 {
   position: absolute;
-  width: 7.46vw;
-height: 1.59vw;
 top: 126.3vw;
 left: 7.25vw;
 font-family: Proxima Nova;
@@ -4655,8 +4644,6 @@ z-index: 1;
 #pt11
 {
   position: absolute;
-  width: 7.54vw;
-height: 1.23vw;
 top: 129.49vw;
 left: 6.52vw;
 font-family: Proxima Nova;
@@ -4671,8 +4658,6 @@ z-index: 1;
 #pt12
 {
   position: absolute;
-  width: 14.93vw;
-height: 2.1vw;
 top: 131.01vw;
 left: 6.52vw;
 font-family: Proxima Bol;
@@ -4703,7 +4688,6 @@ z-index: 1;
 #pt14
 {
   position: absolute;
-  width: 11.59vw;
 height: 1.23vw;
 top: 40.36vw;
 left: 55.27vw;
@@ -4752,7 +4736,6 @@ z-index: 1;
 #pt17
 {
   position: absolute;
-  width: 18.62vw;
 height: 1.23vw;
 top: 70.07vw;
 left: 55.27vw;
@@ -4768,7 +4751,6 @@ z-index: 1;
 #pt18
 {
   position: absolute;
-  width: 9.86vw;
 height: 2.1vw;
 top: 71.59vw;
 left: 55.27vw;
@@ -4803,7 +4785,6 @@ z-index: 1;
 #pt20
 {
   position: absolute;
-  width: 20.14vw;
 height: 1.23vw;
 top: 99.78vw;
 left: 55.27vw;
@@ -4853,8 +4834,6 @@ z-index: 1;
 #pt23
 {
   position: absolute;
-  width: 8.04vw;
-height: 1.23vw;
 top: 129.49vw;
 left: 55.27vw;
 font-family: Proxima Nova;
@@ -4869,8 +4848,6 @@ z-index: 1;
 #pt24
 {
   position: absolute;
-  width: 9.06vw;
-height: 2.1vw;
 top: 131.01vw;
 left: 55.27vw;
 font-family: Proxima Bol;
@@ -4897,7 +4874,7 @@ left: 5.51vw;
   width: 40.23vw;
 height: 21.74vw;
 top: 18.12vw;
-right:4.3vw;
+left:54.3vw;
 
 }
 
@@ -4915,7 +4892,7 @@ left: 5.8vw;
   width: 40.23vw;
 height: 21.74vw;
 top: 47.83vw;
-right:4.3vw;
+left:54.3vw;
 }
 #port5
 {
@@ -4932,7 +4909,7 @@ left: 5.8vw;
   width: 40.23vw;
 height: 21.74vw;
 top: 77.54vw;
-right:4.3vw;
+left:54.3vw;
 
 }
 #port7
@@ -4950,7 +4927,7 @@ left: 5.8vw;
   width: 40.23vw;
 height: 21.74vw;
 top: 107.25vw;
-right:4.3vw;
+left:54.3vw;
 }
 #walkerbox
 {
