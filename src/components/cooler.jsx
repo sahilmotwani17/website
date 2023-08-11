@@ -61,7 +61,8 @@ export default class Cooler extends Component {
         <span className='pind1'>Consumer Electronics</span>
         <span className='pservices'>Services</span>
         <span className='pser1'>Research & Development | Industrial Design</span>
-        <img id='ccooler' src={require("./ccooler.png")}/>
+        <img id='ccooler' src={require("./ccooler.png")} />
+        {/* <img id='ccooler' src={require("./ccooler.png")}/> */}
         <span id='p33'>Symphony</span>
         <p id='p34'>Symphony is a Multi-National Company and is the world’s largest manufacturer of air coolers. It has constantly been on the forefront of innovation since its inception and targets homes, workplaces, industrial plants and factories across the globe.</p>
     

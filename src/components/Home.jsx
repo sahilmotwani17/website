@@ -49,14 +49,9 @@ Here's to boundless creativity and inspiring designs!</span>
       
         
        <img id='dimpspic' className='border border-warning' src={require("./dimps4.png")}/>
-<<<<<<< HEAD
        <Link id="viewser" className="btn btn-outline-warning" to="/spage#stext1">
           View all services
         </Link>
-
-=======
-       
->>>>>>> 319157b6b639d41b757c8979d1e2e2f4fe89c1a8
       </div>
       
     )

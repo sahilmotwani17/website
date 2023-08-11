@@ -22,6 +22,7 @@
 
 #myCarousel div {
     position: absolute;
+    top:69vw;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
     opacity: 1;
   
@@ -116,7 +117,7 @@
     position:absolute;
     width:1.81vw;
     left:33.55vw;
-    top:87.63vw;
+    top:87.1vw;
     z-index:1;
     
 }

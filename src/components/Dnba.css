@@ -1,6 +1,6 @@
 /* Example CSS styles for buttons */
 .scroll-button {
-    font-family: Proxima Nova;
+    font-family: Proxima Bol;
     font-size: 1.16vw;
     font-weight: 700;
     line-height: 1.67vw;
@@ -9,6 +9,7 @@
     border: none;
     background-color: white;
     margin-bottom: 0.72vw; 
+    text-decoration: underline;
    
 
   }
@@ -17,9 +18,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end; 
-    margin-top: 41.45vw; /* Optional: Add some space between buttons and content */
-    margin-right: 11vw;
-    gap:6.52vw;
+    margin-top: 52vw;
+    margin-right: 1vw;
+    gap:6.01vw;
   }
   .arrowbutton
   {

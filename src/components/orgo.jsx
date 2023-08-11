@@ -41,12 +41,12 @@ export default class Orgo extends Component {
         <section id='orgob4'>
         </section>
         <span className='pfolio'>Portfolio</span>
-        <span className='ptitle'>Orgo</span>
+        <span className='ptitle'>ORGO</span>
         <span className='pindustry'>Industry</span>
         <span className='pind1'>Travel Lifestyle</span>
         <span className='pservices'>Services</span>
         <span className='pser1'>Industrial Design</span>
-        <img id='oorgo' src={require("./oorgo.png")}/>
+        <img id='oorgo' src={require("./orgoo1.png")}/>
         <span id='p1'>Challenge</span>
         <p id='p2'>Travel has become a part of our personal and work routines, and a backpack is one of the common travel essentials that all of us need to carry our personal items, especially the electronic gadgets.
 
