@@ -1127,7 +1127,7 @@ color: rgba(158, 158, 158, 1);
 .pind1
 {
   position: absolute;
-  width: 35.48vw;
+  width: 35.48vw !important;
 height: 1.88vw;
 top: 18.19vw;
 left: 2.17vw;
@@ -1160,7 +1160,7 @@ color:rgba(158, 158, 158, 1);
 .pser1
 {
   position: absolute;
-  width: 35.57vw;
+  width: 35.57vw !important;
   height: 1.88vw;
   top: 18.19vw;
   left: 17.17vw;
@@ -4688,7 +4688,6 @@ z-index: 1;
 #pt13
 {
   position: absolute;
-  width: 9.64vw;
 height: 1.59vw;
 top: 37.17vw;
 left: 56vw;
