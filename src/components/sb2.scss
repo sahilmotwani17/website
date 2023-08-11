@@ -110,7 +110,11 @@
 #myCarousel div.nextRightSecond img {
     width: 0vw;
 }
-
+#myCarousel div.selected p
+{
+    width:50vw;
+    margin-left: -14.8vw;
+}
 
 #prevww
 {
@@ -140,7 +144,6 @@
 #stext
 {
 position:absolute;
-
 top:100%;
 left:0;
 right:0;
