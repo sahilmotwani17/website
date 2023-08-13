@@ -1,6 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Home from './components/Home';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import About from './components/about';
 import Spage from './components/spage';
 import Portfolio from './components/portfolio';
@@ -21,9 +21,21 @@ import Serspace from './components/serspace';
 import ContactForm from './components/ContactForm';
 import StartProject from './components/startProjectForm';
 
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
+
 function App() {
+
   return (
     <Router>
+      <ScrollToTop />
     <div>
       <Routes>
       <Route path="/" element={<Home />} />

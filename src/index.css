@@ -140,10 +140,7 @@ color: rgba(255, 203, 111, 1);
 {
   color: white;
 }
-#navtextt1
-{
-  color: black;
-}
+
 #navtextt1:hover
 {
   color:#E1A564;
@@ -151,6 +148,11 @@ color: rgba(255, 203, 111, 1);
   
 }
 #navtextt2
+{
+  color: black;
+  
+}
+#navtextt1
 {
   color: black;
   
@@ -179,6 +181,11 @@ color: rgba(255, 203, 111, 1);
   color: black;
 }
 .nav-link.active-link {
+  color:#E1A564 !important;
+  font-weight: bold !important;
+}
+
+.active123{
   color:#E1A564 !important;
   font-weight: bold !important;
 }
