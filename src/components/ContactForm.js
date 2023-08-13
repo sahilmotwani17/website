@@ -85,7 +85,7 @@ const ContactForm = () => {
             </Form.Group>
           </Col>
         </Row>
-        <Button variant="primary" type="submit" style={{ marginTop: '10px' }}>
+        <Button id='contactsubmit' variant='outline-warning' type="submit" style={{ marginTop: '10px' }}>
           Submit
         </Button>
       </Form>

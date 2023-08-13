@@ -211,6 +211,43 @@ margin-left: 11.23vw ;
   color: white;
 }
 
+#projectsubmit
+{
+  border-radius: 0.72vw;
+font-family: Proxima Nova;
+font-size: 1.3vw;
+font-weight: 700;
+line-height: 1.59vw;
+letter-spacing: 0em;
+text-align: center;
+border: 0.07vw solid rgba(255, 203, 111, 1);
+color: rgba(255, 203, 111, 1);
+width: 15.22vw;
+height: 2.9vw;
+}
+
+#projectsubmit:hover
+{
+  color: white;
+}
+#contactsubmit
+{
+  border-radius: 0.72vw;
+  font-family: Proxima Nova;
+  font-size: 1.3vw;
+  font-weight: 700;
+  line-height: 1.59vw;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 0.07vw solid rgba(255, 203, 111, 1);
+  color: rgba(255, 203, 111, 1);
+  width: 15.22vw;
+  height: 2.9vw;
+}
+#contactsubmit:hover
+{
+  color: white;
+}
 
 #viewser
 {
