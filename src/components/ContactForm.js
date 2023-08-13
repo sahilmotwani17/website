@@ -26,7 +26,13 @@ const ContactForm = () => {
         headers: { 'Content-Type': 'application/json' },
       });
       console.log(response.data); // Server response number
-      // You can add additional logic here, such as displaying a success message to the user.
+
+      // Clear input fields after successful submission
+      setFormData({
+        name: '',
+        email: '',
+        number: '',
+      });
     } catch (error) {
       console.error('Error submitting form:', error);
       // Handle error scenarios, such as displaying an error message to the user.
@@ -34,10 +40,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="contact" style={{height: 350}}>
+    <div id="contact" style={{ height: 350 }}>
       <h1>Contact</h1>
       <NavigationBar />
-      <Form onSubmit={handleSubmit} style={{margin:20}}>
+      <Form onSubmit={handleSubmit} style={{ margin: 20 }}>
         <Row>
           <Col md={3}>
             <Form.Group controlId="formName">
@@ -51,7 +57,7 @@ const ContactForm = () => {
                 className="custom-form-group"
               />
             </Form.Group>
-            
+
             <Form.Group controlId="formNumber">
               <Form.Label>Contact number</Form.Label>
               <Form.Control
@@ -66,7 +72,7 @@ const ContactForm = () => {
             </Form.Group>
           </Col>
           <Col md={3}>
-          <Form.Group controlId="formEmail">
+            <Form.Group controlId="formEmail">
               <Form.Label>E-mail</Form.Label>
               <Form.Control
                 type="email"
