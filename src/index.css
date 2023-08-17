@@ -272,7 +272,10 @@ color: rgba(255, 203, 111, 1);
 {
   color: white;
 }
-
+/* Add these styles to make the input fields transparent */
+.transparent-input {
+  background-color: transparent;
+}
 
 
 #sk
@@ -639,7 +642,6 @@ border-radius: 1.2vw;
 height: 10.14vw;
 margin-left: 1vw;
 margin-right: 1vw; */
-position: absolute;
 width: 95.97472924187726vw;
 height: 14.440433212996389vw;
 left: 1vw;
