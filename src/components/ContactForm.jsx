@@ -51,7 +51,7 @@ const ContactForm = () => {
   };
 
   return (
-<div id='ContactForm' style={{ width: "95.3vw", height: "39.86vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw" }}>
+<div id='ContactForm' style={{ width: "95.3vw", height: "39.86vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw", marginBottom:"1.4vw" }}>
     <span id="cctextt" style={{ marginTop: "2vw", display: "inline-block" }}>Contact</span>
     <Link style={{ marginLeft: "66vw", marginTop: "-3vw", display: "inline-block" }} id='sstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
 
