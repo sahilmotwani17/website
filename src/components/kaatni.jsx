@@ -100,7 +100,7 @@ The mechanism allows farmers to harvest while standing/walking through the switc
             <img id='kaatni12' src={require("./kaatni12.png")}/>
             <span id='p73'>Work study</span>
             <p id='p74'>It was found that farmers prioritize their time more than the efficiency that the tools or machinery allow. A work study was conducted to compare the time taken to cut a bunch of grass by the current sickle and the proposed solution.</p>
-            <span id='p75'>Existing sickle</span>
+            <span id='p75'>1. Existing sickle</span>
             <p id='p76'>The current sickle was able to make 6 swings in 30 seconds.</p>
             <div id='kbox1'></div>
             <span id='ktext1'>30 seconds = 6 swings</span>

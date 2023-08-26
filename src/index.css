@@ -382,8 +382,6 @@ color: rgba(225, 165, 100, 1);
 #pktext2
 {
   position: absolute;
-  width: 23.41vw;
-height: 1.59vw;
 top: 128.48vw;
 left: 50.94vw;
 font-family: Proxima Nova;
@@ -412,8 +410,6 @@ color: rgba(0, 0, 0, 1);
 #mtext
 {
   position: absolute;
-  width: 28.12vw;
-height: 3.91vw;
 top: 153.41vw;
 left: 3.1660649819494586vw;
 font-family: Canela Deck;
@@ -1145,8 +1141,6 @@ color: rgba(225, 165, 100, 1);
 .ptitle
 {
     position: absolute;
-    width: 25.07vw;
-height: 2.1vw;
 top: 13.62vw;
 left: 2.17vw;
 font-family: 'Proxima Bol';
@@ -1179,8 +1173,7 @@ color: rgba(158, 158, 158, 1);
 .pind1
 {
   position: absolute;
-  width: 35.48vw !important;
-height: 1.88vw;
+
 top: 18.19vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -1212,8 +1205,6 @@ color:rgba(158, 158, 158, 1);
 .pser1
 {
   position: absolute;
-  width: 35.57vw !important;
-  height: 1.88vw;
   top: 18.19vw;
   left: 17.17vw;
   font-family: 'Proxima Nova';
@@ -1260,8 +1251,6 @@ color:rgba(0, 0, 0, 1);
 #p3
 {
   position: absolute;
-  width: 9.71vw;
-height: 2.1vw;
 top: 95.51vw;
 left: 2.17vw;
 font-family: 'Proxima Bol';
@@ -1307,8 +1296,6 @@ color: rgba(225, 165, 100, 1);
 #p6
 {
   position: absolute;
-  width: 14.57vw;
-  height: 2.1vw;
   top: 165.07vw;
   left: 2.32vw;
   font-family: 'Proxima Bol';
@@ -1323,16 +1310,12 @@ color: rgba(225, 165, 100, 1);
 #serusere1
 {
   position: absolute;
-  width: 6.52vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 6.96vw;
 }
 #serusere2
 {
   position: absolute;
-  width: 29.28vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 6.23vw;
 
@@ -1340,8 +1323,6 @@ left: 6.23vw;
 #serusere3
 {
   position: absolute;
-  width: 7.61vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 6.23vw;
 
@@ -1359,24 +1340,18 @@ border: 0.22vw;
 #serusere5
 {
   position: absolute;
-  width: 7.61vw;
-height: 1.59vw;
 top: 40.14vw;
 left: 52.25vw;
 }
 #serusere6
 {
   position: absolute;
-  width: 8.04vw;
-height: 1.23vw;
 top: 43.33vw;
 left: 51.45vw;
 }
 #serusere7
 {
   position: absolute;
-  width: 9.06vw;
-height: 2.1vw;
 top: 44.86vw;
 left: 51.45vw;
 }
@@ -1419,8 +1394,6 @@ color:rgba(0, 0, 0, 1)
 
 {
   position: absolute;
-  width: 11.88vw;
-height: 2.1vw;
 top: 51.3vw;
 left: 2.17vw;
 font-family: 'Proxima Bol';
@@ -1517,8 +1490,6 @@ color: rgba(0, 0, 0, 1);
 #p13
 {
   position: absolute;
-  width: 25.36vw;
-height: 2.1vw;
 top: 97.68vw;
 left: 2.17vw;
 font-family: Proxima Bol;
@@ -1580,8 +1551,6 @@ border: 0.22vw solid rgba(255, 203, 111, 1);
 #p16
 {
   position: absolute;
-  width: 7.68vw;
-height: 1.67vw;
 top: 115.51vw;
 left: 50.8vw;
 font-family: 'Proxima Nova';
@@ -1622,8 +1591,6 @@ border: 0.22vw solid rgba(255, 203, 111, 1);
 #p18
 {
   position: absolute;
-  width: 10.07vw;
-  height: 1.67vw;
   top: 127.1vw;
   left: 48.62vw;
   font-family: 'Proxima Nova';
@@ -1901,8 +1868,6 @@ color: rgba(225, 165, 100, 1);
 #p21
 {
   position: absolute;
-  width: 8.04vw;
-height: 1.88vw;
 top: 68.91vw;
 left: 2.17vw;
 
@@ -1934,8 +1899,6 @@ color: rgba(0, 0, 0, 1);
 #p37
 {
   position: absolute;
-  width: 12.46vw;
-height: 1.88vw;
 top: 77.61vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -1966,8 +1929,6 @@ color:rgba(0, 0, 0, 1);
 #p39
 {
   position: absolute;
-  width: 8.04vw;
-  height: 1.88vw;
   top: 88.48vw;
   left: 2.17vw;
   font-family: 'Proxima Nova';
@@ -1997,8 +1958,6 @@ text-align: left;
 #p41
 {
   position: absolute;
-  width: 9.93vw;
-height: 1.88vw;
 top: 99.35vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -2062,8 +2021,6 @@ color:rgba(0, 0, 0, 1);
 #p45
 {
   position: absolute;
-  width: 29.35vw;
-height: 1.88vw;
 top: 166.59vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -2216,8 +2173,6 @@ border-radius: 0.72vw;
 
 #p55 {
   position: absolute;
-  width: 13.84vw;
-  height: 2.1vw;
   top: 99.86vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2248,8 +2203,6 @@ border-radius: 0.72vw;
 
 #p57 {
   position: absolute;
-  width: 11.23vw;
-  height: 1.88vw;
   top: 134.13vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2264,8 +2217,6 @@ border-radius: 0.72vw;
 
 #p58 {
   position: absolute;
-  width: 6.52vw;
-  height: 1.88vw;
   top: 144.28vw;
   left: 28.55vw;
   font-family: Proxima Nova;
@@ -2296,8 +2247,6 @@ border-radius: 0.72vw;
 
 #p60 {
   position: absolute;
-  width: 10vw;
-  height: 1.88vw;
   top: 161.67vw;
   left: 28.55vw;
   font-family: Proxima Nova;
@@ -2328,8 +2277,6 @@ border-radius: 0.72vw;
 
 #p62 {
   position: absolute;
-  width: 11.01vw;
-  height: 1.88vw;
   top: 176.88vw;
   left: 28.55vw;
   font-family: Proxima Nova;
@@ -2360,8 +2307,6 @@ border-radius: 0.72vw;
 
 #p64 {
   position: absolute;
-  width: 8.04vw;
-  height: 1.88vw;
   top: 196.45vw;
   left: 28.55vw;
   font-family: Proxima Nova;
@@ -2439,8 +2384,6 @@ border-radius: 0.72vw;
 
 #p69 {
   position: absolute;
-  width: 14.57vw;
-  height: 2.1vw;
   top: 301.3vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2455,8 +2398,6 @@ border-radius: 0.72vw;
 
 #p70 {
   position: absolute;
-  width: 16.01vw;
-  height: 1.88vw;
   top: 346.45vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2503,8 +2444,6 @@ border-radius: 0.72vw;
 
 #p73 {
   position: absolute;
-  width: 6.67vw;
-  height: 1.88vw;
   top: 393.55vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2535,8 +2474,6 @@ border-radius: 0.72vw;
 
 #p75 {
   position: absolute;
-  width: 10.36vw;
-  height: 1.88vw;
   top: 403.7vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2567,8 +2504,6 @@ border-radius: 0.72vw;
 
 #p77 {
   position: absolute;
-  width: 5.72vw;
-  height: 1.88vw;
   top: 415.29vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2605,8 +2540,6 @@ border-radius: 0.72vw;
 
 #p79 {
   position: absolute;
-  width: 9.71vw;
-  height: 2.1vw;
   top: 51.3vw;
   left: 2.17vw;
   font-family: 'Proxima Bol';
@@ -2638,8 +2571,6 @@ border-radius: 0.72vw;
 
 #p81 {
   position: absolute;
-  width: 18.84vw;
-  height: 2.1vw;
   top: 65.8vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2670,8 +2601,6 @@ border-radius: 0.72vw;
 
 #p83 {
   position: absolute;
-  width: 25.72vw;
-  height: 2.1vw;
   top: 121.59vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2702,8 +2631,6 @@ border-radius: 0.72vw;
 
 #p85 {
   position: absolute;
-  width: 30.49vw;
-  height: 2.1vw;
   top: 170.14vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2766,8 +2693,6 @@ border-radius: 0.72vw;
 
 #p89 {
   position: absolute;
-  width: 24.13vw;
-  height: 2.1vw;
   top: 335.36vw;
   left: 2.17vw;
   font-family: 'Proxima Bol';
@@ -2790,8 +2715,6 @@ border-radius: 0.72vw;
 
 #p90 {
   position: absolute;
-  width: 25.58vw;
-  height: 2.1vw;
   top: 51.3vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2822,8 +2745,6 @@ border-radius: 0.72vw;
 
 #p92 {
   position: absolute;
-  width: 15.22vw;
-  height: 2.1vw;
   top: 70.87vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2854,8 +2775,6 @@ border-radius: 0.72vw;
 
 #p94 {
   position: absolute;
-  width: 9.71vw;
-  height: 2.1vw;
   top: 94.78vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2934,8 +2853,6 @@ border-radius: 0.72vw;
 
 #p99 {
   position: absolute;
-  width: 14.57vw;
-  height: 2.1vw;
   top: 224.49vw;
   left: 2.17vw;
   font-family: Proxima Bol;
@@ -2950,8 +2867,6 @@ border-radius: 0.72vw;
 
 #p100 {
   position: absolute;
-  width: 8.26vw;
-  height: 1.88vw;
   top: 229.06vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -2982,8 +2897,6 @@ border-radius: 0.72vw;
 
 #p102 {
   position: absolute;
-  width: 7.61vw;
-  height: 1.88vw;
   top: 300.07vw;
   left: 2.17vw;
   font-family: Proxima Nova;
@@ -3170,8 +3083,6 @@ color: rgba(0, 0, 0, 1);
 #p151
 {
   position: absolute;
-  width: 25.36vw;
-height: 1.88vw;
 top: 63.12vw;
 left: 2.17vw;
 font-family: Proxima Nova;
@@ -3185,8 +3096,6 @@ color: rgba(0, 0, 0, 1);
 }
 #p152{
   position: absolute;
-  width: 17.1vw;
-height: 1.88vw;
 top: 67.46vw;
 left: 2.17vw;
 font-family: Proxima Nova;
@@ -3215,8 +3124,6 @@ color:rgba(0, 0, 0, 1);
 }
 #p154{
   position: absolute;
-  width: 8.84vw;
-height: 1.88vw;
 top: 80.51vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3246,8 +3153,6 @@ color: rgba(0, 0, 0, 1);
 #p156
 {
   position: absolute;
-  width: 9.28vw;
-height: 1.88vw;
 top: 93.55vw;
 left: 2.17vw;
 font-family: Proxima Nova;
@@ -3293,8 +3198,6 @@ color: rgba(225, 165, 100, 1);
 #p159
 {
   position: absolute;
-  width: 7.97vw;
-height: 1.88vw;
 top: 112.39vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3328,8 +3231,6 @@ color: rgba(0, 0, 0, 1);
 #p161
 {
   position: absolute;
-  width: 10.14vw;
-height: 1.88vw;
 top: 127.61vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3359,8 +3260,6 @@ color: rgba(0, 0, 0, 1);
 #p163
 {
   position: absolute;
-  width: 12.54vw;
-height: 1.88vw;
 top: 142.83vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3484,8 +3383,6 @@ color: rgba(0, 0, 0, 1);
 #p171
 {
   position: absolute;
-  width: 13.84vw;
-height: 1.88vw;
 top: 200.07vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3577,8 +3474,6 @@ color: rgba(0, 0, 0, 1);
 #p177
 {
   position: absolute;
-  width: 8.99vw;
-height: 1.88vw;
 top: 416.01vw;
 left: 2.17vw;
 font-family: 'Proxima Nova';
@@ -3640,8 +3535,6 @@ color: rgba(0, 0, 0, 1);
 #p181
 {
   position: absolute;
-  width: 8.91vw;
-height: 1.88vw;
 top: 549.35vw;
 left: 2.17vw;
 font-family: Proxima Nova;
@@ -3792,8 +3685,6 @@ text-align: left;
 #vision
 {
   position: absolute;
-  width: 14.78vw;
-height: 3.91vw;
 top: 43.26vw;
 left: 42.99vw;
 font-family: Canela Deck;
@@ -3829,8 +3720,6 @@ border: 0.22vw solid rgba(255, 203, 111, 1);
 #aboutdimple
 {
   position: absolute;
-  width: 28.77vw;
-  height: 3.91vw;
   top: 191.81vw;
   left: 44.64vw;
   
@@ -3903,8 +3792,6 @@ z-index: 2;
 #looking
 {
   position: absolute;
-  width: 17.83vw;
-  height: 2.1vw;
   top: 228.12vw;
   left: 2.17vw;
 font-family: Proxima Bol;
@@ -4034,16 +3921,12 @@ color: rgba(255, 203, 111, 1);
 #serr1
 {
   position: absolute;
-  width: 9.64vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 7.25vw;
 }
 #serr2
 {
   position: absolute;
-  width: 11.59vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 6.52vw;
 
@@ -4051,8 +3934,6 @@ left: 6.52vw;
 #serr3
 {
   position: absolute;
-  width: 5.43vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 6.52vw;
 
@@ -4072,16 +3953,12 @@ border: 0.22vw;
 #serr5
 {
   position: absolute;
-  width: 4.49vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 52.17vw;
 }
 #serr6
 {
   position: absolute;
-  width: 18.62vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 51.45vw;
 
@@ -4089,8 +3966,6 @@ left: 51.45vw;
 #serr7
 {
   position: absolute;
-  width: 9.86vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 51.45vw;
 
@@ -4109,8 +3984,6 @@ border: 0.22vw;
 #serr9
 {
   position: absolute;
-  width: 12.9vw;
-height: 1.59vw;
 top: 69.78vw;
 left: 7.25vw;
 
@@ -4118,8 +3991,6 @@ left: 7.25vw;
 #serr10
 {
   position: absolute;
-  width: 20.14vw;
-height: 1.23vw;
 top: 72.97vw;
 left: 6.52vw;
 
@@ -4127,8 +3998,6 @@ left: 6.52vw;
 #serr11
 {
   position: absolute;
-  width: 5.29vw;
-height: 2.1vw;
 top: 74.49vw;
 left: 6.52vw;
 
@@ -4147,8 +4016,6 @@ border: 0.22vw;
 #serr13
 {
   position: absolute;
-  width: 6.59vw;
-height: 1.59vw;
 top: 69.78vw;
 left: 52.17vw;
 
@@ -4156,16 +4023,12 @@ left: 52.17vw;
 #serr14
 {
   position: absolute;
-  width: 20.14vw;
-height: 1.23vw;
 top: 72.97vw;
 left: 51.45vw;
 }
 #serr15
 {
   position: absolute;
-  width: 5.07vw;
-height: 2.1vw;
 top: 74.49vw;
 left: 51.45vw;
 
@@ -4337,24 +4200,18 @@ text-align: center;
 #seri1
 {
   position: absolute;
-  width: 8.26vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 7.25vw;
 }
 #seri2
 {
   position: absolute;
-  width: 7.83vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 6.52vw;
 }
 #seri3
 {
   position: absolute;
-  width: 5.07vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 6.52vw;
 }
@@ -4371,8 +4228,6 @@ border: 0.22vw;
 #seri5
 {
   position: absolute;
-  width: 6.59vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 52.17vw;
 
@@ -4380,16 +4235,12 @@ left: 52.17vw;
 #seri6
 {
   position: absolute;
-  width: 20.14vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 51.45vw;
 }
 #seri7
 {
   position: absolute;
-  width: 5.07vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 51.45vw;
 }
@@ -4406,8 +4257,6 @@ border: 0.22vw;
 #seruseri1
 {
   position: absolute;
-  width: 6.52vw;
-height: 1.59vw;
 top: 40.07vw;
 left: 6.96vw;
 
@@ -4415,8 +4264,6 @@ left: 6.96vw;
 #seruseri2
 {
   position: absolute;
-  width: 29.28vw;
-height: 1.23vw;
 top: 43.26vw;
 left: 6.23vw;
 
@@ -4424,8 +4271,6 @@ left: 6.23vw;
 #seruseri3
 {
   position: absolute;
-  width: 7.61vw;
-height: 2.1vw;
 top: 44.78vw;
 left: 6.23vw;
 
@@ -4443,8 +4288,6 @@ border: 0.22vw;
 #seruseri5
 {
   position: absolute;
-  width: 7.46vw;
-height: 1.59vw;
 top: 40.14vw;
 left: 52.25vw;
 
@@ -4452,8 +4295,6 @@ left: 52.25vw;
 #seruseri6
 {
   position: absolute;
-  width: 7.54vw;
-height: 1.23vw;
 top: 43.33vw;
 left: 51.52vw;
 
@@ -4461,8 +4302,6 @@ left: 51.52vw;
 #seruseri7
 {
   position: absolute;
-  width: 14.93vw;
-height: 2.1vw;
 top: 44.86vw;
 left: 51.52vw;
 

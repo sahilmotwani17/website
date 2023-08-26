@@ -50,10 +50,10 @@ function NavigationBar() {
               <li className="nav-item">
               <a id='navtextt4'
                   className="nav-link"
-                  href="#contact"
+                  href="#ContactForm"
                   onClick={() =>
                     document
-                      .getElementById('contact')
+                      .getElementById('ContactForm')
                       .scrollIntoView({ behavior: 'smooth' })
                   }
                 >

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Form, Button, Row, Col } from 'react-bootstrap';
-import NavigationBar from './Navbar';
+import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
 
 const ContactForm = () => {
@@ -11,8 +10,9 @@ const ContactForm = () => {
     number: '',
   });
 
+  // Set showForm to true initially
   const [showForm, setShowForm] = useState(false);
-  const [showMessage, setShowMessage] = useState(false);
+  const [showMessage, setShowMessage] = useState(true);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -51,7 +51,7 @@ const ContactForm = () => {
   };
 
   return (
-<div style={{ width: "95.3vw", height: "39.86vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw" }}>
+<div id='ContactForm' style={{ width: "95.3vw", height: "39.86vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw" }}>
     <span id="cctextt" style={{ marginTop: "2vw", display: "inline-block" }}>Contact</span>
     <Link style={{ marginLeft: "66vw", marginTop: "-3vw", display: "inline-block" }} id='sstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
 

@@ -57,7 +57,7 @@ function App() {
       <Route path="/serservice" element={<Serservice/>}/>
       <Route path="/serspace" element={<Serspace/>}/>
       <Route path="/spage" element={<Spage/>}/>
-      {/* <Route exact path="/contact" element={<ContactForm/>}/> */}
+      <Route exact path="/ContactForm" element={<ContactForm/>}/>
       <Route exact path="/startProject" element={<StartProject/>}/>
 
       </Routes>

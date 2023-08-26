@@ -85,7 +85,7 @@ The exhibition venue can also promote the development of related service industr
         <p id='p162'>The exhibition sector generates more than $81 billion in direct GDP, ranking as the 56th largest economy in the world.
 
 They also make a valuable contribution to the economy by providing employment in events organising companies, venues, hotels, stand/booth design and build and so on.</p>
-        <span id='p163'>technological Impact</span>
+        <span id='p163'>Technological Impact</span>
         <p id='p164'>Visitors want to be engaged and amazed, and new technology products mean that visitors are indeed engaged even when staff are busy. Touchscreen digital displays are another popular product on stands today. Not only do they draw visitors in, but they also enable them the ultimate freedom of discovering your products and services themselves using on-screen navigation.</p>
         <span id='p165'>Hypotheses</span>
         <p id='p166'>If the communication barriers among different cultures and regions in exhibitions are removed then it would lead to better and improved exchange of information.</p>
