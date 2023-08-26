@@ -3,6 +3,7 @@ import Contact from './contact';
 import NavigationBar from './Navbar';
 import './walker.css';
 import Pwcarousel from './pwcarousel';
+import ContactForm from './ContactForm';
 
 export default class Walker extends Component {
     scrollToSection = (sectionId) => {
@@ -140,7 +141,7 @@ Taking forward the insights, and transforming the current walker into an interac
 companion that ensures safety and security of the users, while adhering to the standard medical laws would contribute towards the betterment of mental as well as physical well-being of the users.
         </p>
         <div id='wcontact'>
-          <Contact />
+          <ContactForm  />
         </div>
         </div>
     )

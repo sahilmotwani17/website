@@ -7,21 +7,24 @@ export default class Aboutcarousel extends Component {
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className='aboutcimg' src={require("./play1.png")}/>
+              <div className='aboutcimg'>
+              </div>
               <span className='aboutctext1'>thru as preposition • expressing movement from one side of a channel to another</span>
               <span className='aboutctext2'>
               We are the channel to help you through...
               </span>
             </div>
             <div className="carousel-item">
-              <img className='aboutcimg' src={require("./play1.png")}/>
+              <div className='aboutcimg'>
+                </div>
               <span className='aboutctext1'>thru as adverb • process</span>
               <span className='aboutctext2'>
               We focus on offering process-driven mindset to arrive at outcome-driven solutions
               </span>
             </div>
             <div className="carousel-item">
-            <img className='aboutcimg' src={require("./play1.png")}/>
+            <div className='aboutcimg'>
+              </div>
             <span className='aboutctext1'>thru as adjective • complete</span>
               <span className='aboutctext2'>
               We help you complete your success stories

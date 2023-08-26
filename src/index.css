@@ -110,7 +110,7 @@ text-align: center;
 border: 0.07vw solid rgba(255, 203, 111, 1);
 padding-top: 0.6vw;
 color: rgba(255, 203, 111, 1);
-
+white-space: nowrap;
 /* color: #FFCB6F; */
 }
 #know:hover
@@ -205,11 +205,41 @@ color: rgba(255, 203, 111, 1);
 width:15.22vw;
 height: 2.9vw;
 margin-left: 11.23vw ;
+white-space: nowrap;
 }
+
 #navstartproject:hover
 {
   color: white;
 }
+#sstartproject:hover
+{
+  color: white;
+}
+#sstartproject{
+  border-radius: 0.72vw;
+  border: 0.07vw solid rgba(255, 203, 111, 1);
+  font-family: Proxima Nova;
+  font-size: 1.3vw;
+  font-weight: 700;
+  line-height: 1.59vw;
+  letter-spacing: 0em;
+  text-align: center;
+  z-index: 11;
+  padding-top: 0.6vw;
+  color: rgba(255, 203, 111, 1);
+  width:15.22vw;
+  height: 2.9vw;
+  margin-left: 11.23vw ;
+  white-space: nowrap;
+
+}
+#homeccontact
+{
+  position: absolute;
+  top:215.22vw;
+}
+
 
 #projectsubmit
 {
@@ -642,14 +672,14 @@ border-radius: 1.2vw;
 height: 10.14vw;
 margin-left: 1vw;
 margin-right: 1vw; */
-width: 95.97472924187726vw;
-height: 14.440433212996389vw;
+width: 95.3vw;
+height: 40.58vw;
 left: 1vw;
 
 background: #FBF6EA;
 border-radius: 0.7220216606498195vw;
 }
-#contact>h1 
+#cctextt
 {
   font-family: 'Canela Deck';
 font-size: 2.5vw;
@@ -5968,26 +5998,38 @@ left: 2.17vw;
 }
 } */
 /* Add CSS for the custom-navbar class */
-@media (max-width: 71.81vw) {
+@media (max-width: 991px) {
   .custom-navbar {
     position: fixed;
-    top: 0;
-    right: -21.74vw;
-    width: 14.49vw;
+    top: 13vw;
+    width: 25%;
     height: 100%;
     transition: right 0.3s ease-in-out;
     overflow-y: auto;
+    overflow-x: hidden;
+    right: 0;
+    
     background-color: white;
     z-index:1;
-  }
-  .show-custom {
-    right: 0;
   }
   .navbar-toggler {
     z-index: 2;
   }
-
+#navstartproject
+{
+  position: absolute;
+  right:0.1vw
+}
+#cformm
+{
+  margin-top:-25vw ;
+}
   
+}
+#cformm
+{
+  margin-left:3vw;
+  margin-top:-0.5vw;
 }
 
 #pdiv{
@@ -6064,8 +6106,8 @@ color:rgba(255, 203, 111, 1)
 }
 
 .custom-form-group {
-  border: 1px solid rgba(255, 203, 111, 1);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 4px;
+  border: 0.07vw solid rgba(255, 203, 111, 1);
+  padding: 0.72vw;
+  margin-bottom: 0.72vw;
+  border-radius: 0.29vw;
 }

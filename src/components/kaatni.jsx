@@ -3,6 +3,8 @@ import Contact from './contact';
 import NavigationBar from './Navbar';
 import './kaatni.css';
 import Pkcarousel from './pkcarousel';
+import ContactForm from './ContactForm';
+
 
 export default class Kaatni extends Component {
   scrollToSection = (sectionId) => {
@@ -47,6 +49,7 @@ export default class Kaatni extends Component {
         </section>
         <section id='kaatnib5'>
         </section>
+
 
         <span className='pfolio'>Portfolio</span>
         <span className='ptitle'>Kaatni</span>
@@ -111,7 +114,7 @@ The mechanism allows farmers to harvest while standing/walking through the switc
             </div>
 
         <div id='kcontact'>
-          <Contact />
+          <ContactForm />
         </div>
         </div>
     )

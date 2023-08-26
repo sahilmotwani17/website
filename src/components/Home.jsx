@@ -52,6 +52,10 @@ Here's to boundless creativity and inspiring designs!</span>
        <Link id="viewser" className="btn btn-outline-warning" to="/spage#stext1">
           View all services
         </Link>
+        <div id='homeccontact'>
+
+        <ContactForm/>
+        </div>
       </div>
       
     )

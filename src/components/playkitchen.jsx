@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import NavigationBar from './Navbar';
 import Contact from './contact';
 import './playkitchen.css';
+import ContactForm from './ContactForm';
+
 
 export default class Playkitchen extends Component {
   scrollToSection = (sectionId) => {
@@ -61,7 +63,7 @@ export default class Playkitchen extends Component {
         <p id='p148'>This project aims to provide convenience and emotional comfort among homemakers by reducing their workload that would eliminate the feelings of frustration and exhaustion, while also keeping in mind the technology and market trends. The intent behind the project is to keep the target users motivated to cook by personalising the kitchen experience for each homemaker.
         </p>
         <div id='playcontact'>
-          <Contact/>
+          <ContactForm/>
         </div>
 
       </div>

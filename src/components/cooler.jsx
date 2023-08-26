@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Contact from './contact';
 import NavigationBar from './Navbar';
 import './cooler.css';
+import ContactForm from './ContactForm';
+
 
 export default class Cooler extends Component {
   scrollToSection = (sectionId) => {
@@ -106,7 +108,7 @@ higher range of cooling.</p>
         <img id='cooler7' src={require("./cooler7.png")}/>
         <img id='cooler8' src={require("./cooler8.png")}/>
         <div id='ccontact'>
-          <Contact />
+          <ContactForm />
         </div>
 
       </div> 

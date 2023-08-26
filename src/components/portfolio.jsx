@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import NavigationBar from './Navbar';
 import Contact from './contact';
 import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
+
 export default class Portfolio extends Component {
 
     render() {
@@ -63,9 +65,9 @@ export default class Portfolio extends Component {
         <img id='port8' src={require("./port8.png")}/>
         </Link>
 
-        <div id='pc'>
+        <div style={{position:"absolute", top:"137.68vw"}}>
 
-        <Contact />
+        <ContactForm />
         </div>
       </div>
       

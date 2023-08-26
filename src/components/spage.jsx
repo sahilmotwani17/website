@@ -3,6 +3,7 @@ import NavigationBar from './Navbar';
 import Contact from './contact';
 import Sercarousel from './sercarousel';
 import { Link } from 'react-router-dom';
+import ContactForm from './ContactForm';
 
 export default class Spage extends Component {
   render() {
@@ -95,8 +96,8 @@ export default class Spage extends Component {
           </div>
           
         </div>
-        <div id='servicont'>
-        <Contact/>
+        <div style={{position:'absolute',top:"226.81vw"}}>
+        <ContactForm/>
         </div>
         <Link id='viewrelated1' className="btn btn-outline-warning" to="/serresearch">View Related Work</Link>
         <Link id='viewrelated2' className="btn btn-outline-warning" to="/serindustrial">View Related Work</Link>

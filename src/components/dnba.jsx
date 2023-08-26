@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Contact from './contact';
 import NavigationBar from './Navbar';
 import './Dnba.css';
+import ContactForm from './ContactForm';
+
 
   export default class Dnba extends Component {
     scrollToSection = (sectionId) => {
@@ -94,7 +96,7 @@ It depicted the story of how an angel lifts a person from a stormy sea and the C
 <img id='dnbalong2' src={require("./dnbalong2.png")}/>
 <div id='dnbacontact'>
 
-<Contact />
+<ContactForm />
 </div>
       </div>
     )

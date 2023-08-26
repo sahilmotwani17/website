@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Contact from './contact';
 import NavigationBar from './Navbar';
 import './orgo.css';
+import ContactForm from './ContactForm';
 
 export default class Orgo extends Component {
   scrollToSection = (sectionId) => {
@@ -69,7 +70,7 @@ export default class Orgo extends Component {
         <img id='orgo8' src={require("./orgo8.png")}/>
         <img id='orgo9' src={require("./orgo9.png")}/>
         <div id='ocontact'>
-          <Contact />
+          <ContactForm />
         </div>
 
       </div> 

@@ -3,6 +3,8 @@ import NavigationBar from './Navbar';
 import Contact from './contact';
 import './expo.css';
 import Pecarousel from './pecarousel';
+import ContactForm from './ContactForm';
+
 
 export default class Expo extends Component {
         scrollToSection = (sectionId) => {
@@ -145,7 +147,7 @@ ExpoEezy fulfils this by offering rental services of products that exhibitors ma
           <Pecarousel/>
         </div>
         <div id='expocontact'>
-                <Contact/>
+                <ContactForm/>
         </div>
 
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavigationBar from "./Navbar";
 import Contact from "./contact";
 import Aboutcarousel from "./aboutcarousel";
+import ContactForm from "./ContactForm";
 
 export default class About extends Component {
   render() {
@@ -23,10 +24,11 @@ export default class About extends Component {
 Dimple firmly believes in growth and is keen to expand Thru by endlessly inspiring change and serving innovative stories to the users and their businesses. She holds a joyful and down-to-earth personality, ensuring to make the journey playful and memorable for surroundings.</span>
         
         <span id='looking'>Looking for a speaker?</span>
-        <span id='lookingtext'>Dimple is keen to publicly speak about design and research and make aware of their abilities to transform the reality. She speaks about.... </span>
+        <span id='lookingtext'>Dimple is a great story-teller and is keen to publicly speak about design and research and make aware of their profound abilities. She speaks about the career opportunities in creative fields like design and research, importance of creativity and innovation in various fields, design and research as independent subjects, and a lot more that is dealt by these subjects. </span>
         <div id='aboutcar'>
           <Aboutcarousel/>
         </div>
+        <div style={{position:"absolute", top:"250vw"}}><ContactForm/></div>
       </div>
     );
   }

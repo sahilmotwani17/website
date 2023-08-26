@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Contact from './contact'; 
 import NavigationBar from './Navbar';
 import './bus.css';
+import ContactForm from './ContactForm';
+
 
 export default class Bus extends Component {
   scrollToSection = (sectionId) => {
@@ -84,7 +86,7 @@ Besides, the restlessness among them when the bus arrives has resulted in numero
         <img id='bus4' src={require("./bus4.png")}/>
 
       <div id='buscontact'>
-        <Contact />
+        <ContactForm />
       </div>
       </div>
     )

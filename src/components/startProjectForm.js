@@ -131,7 +131,10 @@ Thru designs offers an inclusive platform that puts forward a wealth of knowledg
          
         </Row>
       </div>
+      <div>
+
       <ContactForm/>
+      </div>
 
     </div>
   );
