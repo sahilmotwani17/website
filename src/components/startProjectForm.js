@@ -50,7 +50,7 @@ const StartProject = () => {
   return (
     <div>
       <NavigationBar />
-      <div style={{margin:130}}>
+      <div style={{margin:"9.42vw"}}>
         <Row className='gx-4'>
           {/* Form Column */}
           <Col md={5}>
@@ -102,8 +102,8 @@ Thru designs offers an inclusive platform that puts forward a wealth of knowledg
             
           <Col md={7}  >
             <div className='d-flex flex-column align-items-start'>
-              <h5 style={{margin:50, color: "rgba(225, 165, 100, 1)", fontFamily:"Proxima Bol", fontSize:"1.74vw"}}>What our clients have to say about us...</h5>
-              <div style={{marginLeft:70}}>
+              <h5 style={{margin:"3.62vw", color: "rgba(225, 165, 100, 1)", fontFamily:"Proxima Bol", fontSize:"1.74vw"}}>What our clients have to say about us...</h5>
+              <div style={{marginLeft:"5.07vw"}}>
                 <p className='mb-1' style={{fontFamily:"Proxima Nova", fontSize:"1.3vw", color:"black", fontWeight:"bold"}}>Abhijeet Joshi</p>
                 <p className='mb-1 text-muted' style={{fontFamily:"Proxima Nova", fontSize:"1.01vw", color:"rgba(158, 158, 158, 1)"}}>Designation, Company</p>
                 <p className='mb-2' style={{fontFamily:"Proxima Nova", fontSize:"1.3vw",lineHeight:"1.59vw"}}>
@@ -111,7 +111,7 @@ Thru designs offers an inclusive platform that puts forward a wealth of knowledg
                 </p>
                 <hr />
               </div>
-              <div style={{marginLeft:70}}>
+              <div style={{marginLeft:"5.07vw"}}>
                 <p className='mb-1'style={{fontFamily:"Proxima Nova", fontSize:"1.3vw", color:"black", fontWeight:"bold"}}>Abhijeet Joshi</p>
                 <p className='mb-1 text-muted' style={{fontFamily:"Proxima Nova", fontSize:"1.01vw", color:"rgba(158, 158, 158, 1)"}}>Designation, Company</p>
                 <p className='mb-2'style={{fontFamily:"Proxima Nova", fontSize:"1.3vw",lineHeight:"1.59vw"}}>
@@ -119,7 +119,7 @@ Thru designs offers an inclusive platform that puts forward a wealth of knowledg
                 </p>
                 <hr />
               </div>
-              <div style={{marginLeft:70}}>
+              <div style={{marginLeft:"5.07vw"}}>
                 <p className='mb-1'style={{fontFamily:"Proxima Nova", fontSize:"1.3vw", color:"black", fontWeight:"bold"}}>Abhijeet Joshi</p>
                 <p className='mb-1 text-muted' style={{fontFamily:"Proxima Nova", fontSize:"1.01vw", color:"rgba(158, 158, 158, 1)"}}>Designation, Company</p>
                 <p className='mb-2'style={{fontFamily:"Proxima Nova", fontSize:"1.3vw",lineHeight:"1.59vw"}}>

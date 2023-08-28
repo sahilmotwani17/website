@@ -92,6 +92,12 @@ letter-spacing: 0em;
 text-align: left;
 padding-left: 5.2vw; */
 }
+#ContactForm
+{
+  height: 39.86vw;
+}
+
+
 #know{
   position: absolute;
 /* width: 11.263537906137184vw;
@@ -105,12 +111,12 @@ font-family: Proxima Nova;
 font-size: 1.3vw;
 font-weight: 700;
 line-height: 1.59vw;
-letter-spacing: 0em;
-text-align: center;
 border: 0.07vw solid rgba(255, 203, 111, 1);
 padding-top: 0.6vw;
 color: rgba(255, 203, 111, 1);
 white-space: nowrap;
+padding-top: 0.5vw;
+padding-bottom: 0.5vw;
 /* color: #FFCB6F; */
 }
 #know:hover
@@ -349,9 +355,6 @@ left: 3.1660649819494586vw;
 font-family: Canela Deck;
 font-size: 2.61vw;
 font-weight: 700;
-line-height: 3.91vw;
-letter-spacing: 0em;
-text-align: left;
 color:rgba(225, 165, 100, 1);
 
 }
@@ -5780,6 +5783,11 @@ left: 2.17vw;
   .navbar-toggler {
     z-index: 2;
   }
+  #ContactForm
+{
+  height: 48.86vw;
+}
+
 #navstartproject
 {
   position: absolute;
@@ -5791,6 +5799,20 @@ left: 2.17vw;
 }
   
 }
+@media (max-width: 395px)
+{
+  #ContactForm
+  {
+    height:55vw !important;
+  }
+} 
+@media (max-width: 358px)
+{
+  #ContactForm
+  {
+    height:167px !important ;
+  }
+} 
 #cformm
 {
   margin-left:3vw;

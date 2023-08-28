@@ -20,84 +20,20 @@ export default class Home extends Component {
           At thru designs, you get to live your stories while we deliver you experiences, through design.<br/><br/>
           #makeithappenthroughdesign</span>
 
-          <Link id='know' className="btn btn-outline-warning" to="/about">Know more about us</Link>
+          <Link style={{ display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'}} id='know' className="btn btn-outline-warning" to="/about">Know more about us</Link>
           <div id='homedpbanner'>
 
       <Dpbanner/>
           </div>
       <Services />
-      <div id='work'>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+      <div id='work'>        
       </div>
         <span id='fwtext'>Featured Work</span>
-        <Link id='fwbutton' className="btn btn-outline-warning" to="/portfolio">View all work</Link>
+        <Link style={{ display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center', paddingTop:"0.6vw", paddingBottom:"0.5vw"}} id='fwbutton' className="btn btn-outline-warning" to="/portfolio">View all work</Link>
         <img id='fwimg' className='border border-warning' src={require("./port4.png")}/>
         <span id='pktext'>Play Kitchen</span>
         <span id='pktext2'>Research & Development | Space Design</span>
@@ -117,7 +53,8 @@ Here's to boundless creativity and inspiring designs!</span>
       
         
        <img id='dimpspic' className='border border-warning' src={require("./dimps4.png")}/>
-       <Link id="viewser" className="btn btn-outline-warning" to="/spage#stext1">
+       <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id="viewser" className="btn btn-outline-warning" to="/spage#stext1">
           View all services
         </Link>
         <div id='homeccontact'>

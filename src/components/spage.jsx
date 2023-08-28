@@ -99,12 +99,18 @@ export default class Spage extends Component {
         <div style={{position:'absolute',top:"226.81vw"}}>
         <ContactForm/>
         </div>
-        <Link id='viewrelated1' className="btn btn-outline-warning" to="/serresearch">View Related Work</Link>
-        <Link id='viewrelated2' className="btn btn-outline-warning" to="/serindustrial">View Related Work</Link>
-        <Link id='viewrelated3' className="btn btn-outline-warning" to="/seruseri">View Related Work</Link>
-        <Link id='viewrelated4' className="btn btn-outline-warning" to="/serusere">View Related Work</Link>
-        <Link id='viewrelated5' className="btn btn-outline-warning" to="/serservice">View Related Work</Link>
-        <Link id='viewrelated6' className="btn btn-outline-warning" to="/serspace">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated1' className="btn btn-outline-warning" to="/serresearch">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated2' className="btn btn-outline-warning" to="/serindustrial">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated3' className="btn btn-outline-warning" to="/seruseri">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated4' className="btn btn-outline-warning" to="/serusere">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated5' className="btn btn-outline-warning" to="/serservice">View Related Work</Link>
+        <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap'}} id='viewrelated6' className="btn btn-outline-warning" to="/serspace">View Related Work</Link>
       </div>
     )
   }

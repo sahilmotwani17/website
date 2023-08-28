@@ -64,7 +64,9 @@ function NavigationBar() {
             <ul id='sk1' className="navbar-nav mb-2 ms-auto">
               <li className="nav-item">
                 
-              <Link id='navstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
+              <Link style={{ display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center', paddingTop:"0.5vw", paddingBottom:"0.5vw"}}  id='navstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
               </li>
               {/* <li class="nav-item">
                 

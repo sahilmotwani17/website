@@ -51,15 +51,16 @@ const ContactForm = () => {
   };
 
   return (
-<div id='ContactForm' style={{ width: "95.3vw", height: "39.86vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw", marginBottom:"1.4vw" }}>
+<div id='ContactForm' style={{ width: "95.3vw", backgroundColor: "rgba(251, 246, 234, 1)", borderRadius: "0.72vw",marginLeft:"1.8vw", marginBottom:"1.4vw" }}>
     <span id="cctextt" style={{ marginTop: "2vw", display: "inline-block" }}>Contact</span>
-    <Link style={{ marginLeft: "66vw", marginTop: "-3vw", display: "inline-block" }} id='sstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
+    <Link style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", paddingBottom:"0.5vw",whiteSpace: 'nowrap',marginLeft: "66vw", marginTop: "-3vw", display: "inline-block",textAlign:"center" }} id='sstartproject' className="btn btn-outline-warning" to="/startProject">Start a project with us</Link>
 
-      <div style={{ display: 'flex', justifyContent: 'center',fontFamily:'Proxima Nova' ,width: '28.48vw', height: '2.9vw', marginTop: '2.3vw',marginLeft:'2vw' ,borderRadius: '0.72vw', border: '0.07vw solid rgba(255, 203, 111, 1)' }}>
-        <Button variant="primary" onClick={handleJoinTeamClick} style={{ backgroundColor: showMessage ? 'rgba(255, 203, 111, 1)' : 'transparent', color: showMessage ? 'white' : 'black', border: 'none', outline: 'none',fontSize:'1.3vw',marginRight: '2vw',paddingTop: '0.5vw', paddingBottom: '0.5vw'  }}>
+      <div style={{ display: 'flex', justifyContent: 'center',fontFamily:'Proxima Nova' ,width: '28.48vw', height: '2.9vw', marginTop: '2.3vw',marginLeft:'2vw' ,borderRadius: '0.72vw', border: '0.07vw solid rgba(255, 203, 111, 1)', alignItems:"center", whiteSpace:"nowrap",paddingBottom:"0.08vw", textOverflow: "ellipsis" }}>
+
+        <Button variant="primary" onClick={handleJoinTeamClick} style={{ backgroundColor: showMessage ? 'rgba(255, 203, 111, 1)' : 'transparent', color: showMessage ? 'white' : 'black', border: 'none', outline: 'none',fontSize:'1.3vw',marginRight: '2vw',paddingTop: '0.5vw', paddingBottom: '0.5vw',height:"2.4vw" }}>
           Join Our Team
         </Button>
-        <Button variant="success" onClick={handleConnectClick} style={{ backgroundColor: showForm ? 'rgba(255, 203, 111, 1)' : 'transparent', color: showForm ? 'white' : 'black', border: 'none', outline: 'none',fontSize:'1.3vw',paddingTop: '0.5vw', paddingBottom: '0.5vw'  }}>
+        <Button variant="success" onClick={handleConnectClick} style={{ backgroundColor: showForm ? 'rgba(255, 203, 111, 1)' : 'transparent', color: showForm ? 'white' : 'black', border: 'none', outline: 'none',fontSize:'1.3vw',paddingTop: '0.5vw', paddingBottom: '0.5vw',height:"2.4vw" }}>
           Connect With Us
         </Button>
       </div>
@@ -113,7 +114,8 @@ const ContactForm = () => {
       style={{ width:"22.46vw",height:"2.9vw" }}
     />
   </Form.Group>
-          <Button id="contactsubmit" variant="outline-warning" type="submit" style={{ marginTop: '0.72vw', marginBottom:"1vw" }}>
+          <Button  id="contactsubmit" variant="outline-warning" type="submit" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop:"0.6vw", 
+       paddingBottom:"0.5vw",whiteSpace: 'nowrap', marginTop: '1.72vw', marginBottom:"1vw" }}>
             Submit
           </Button>
 </div>
